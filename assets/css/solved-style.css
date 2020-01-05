@@ -283,4 +283,10 @@ input[type="submit"] {
   .main-container {
     padding-top: 15px;
   }
+  .main-section {
+    width: auto;
+    margin-left: 22px;
+    margin-right: 22px;
+    /* FIXME: left margin ok. right margin cut off */
+  }
 }
