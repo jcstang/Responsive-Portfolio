@@ -252,6 +252,7 @@ input[type="submit"] {
   .main-nav {
     position: static;
     overflow: auto;
+    margin: 0 0 5px;
     /* position: fixed;
     z-index: 99;
     width: 100%;
@@ -263,13 +264,23 @@ input[type="submit"] {
   }
   nav {
     /* TODO: remove brown. just for testing. */
-    background-color: brown;
+    /* background-color: brown; */
     width: 100%;
     /* centers the nav links */
     margin: auto;
     text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
   .logo-me {
     width: 100%;
+  }
+  nav a {
+    /* TODO: get rid of the padding-margin */
+    padding: 0 11px;
+    margin: 0;
+  }
+  .main-container {
+    padding-top: 15px;
   }
 }
