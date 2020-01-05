@@ -288,5 +288,15 @@ input[type="submit"] {
     margin-left: 22px;
     margin-right: 22px;
     /* FIXME: left margin ok. right margin cut off */
+    /* DONE? */
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 15px;
+    /* float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px; */
   }
 }
