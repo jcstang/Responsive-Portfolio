@@ -269,4 +269,7 @@ input[type="submit"] {
     margin: auto;
     text-align: center;
   }
+  .logo-me {
+    width: 100%;
+  }
 }
