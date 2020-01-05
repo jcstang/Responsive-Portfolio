@@ -1,0 +1,145 @@
+/* 
+Basic Portfolio
+Winter 2019
+style.css
+
+ */
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/interlaced/interlaced.png');
+    margin: 0px;
+    line-height: 1.7rem;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 90px;
+    
+}
+
+.container {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    /* width: 960px; */
+    width: 65%;
+    padding: 12px;
+    margin: auto;           /* makes the section in the middle. */   
+    margin-top: 20px;       /* bump it off of the the top header */
+    margin-bottom: 20px;    /* bumps it off of the footer. */
+
+    /* height: 800px;          I don't love this. wish it was more dynamic. */
+}
+
+.container p {
+    padding: 7px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container strong {
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-large;
+}
+
+.container h1 {
+    color: #4aaaa5;
+}
+
+section img {
+    float: left;
+    margin: 15px;
+}
+
+footer {
+    background-color: #666666;
+    padding: 30px 10px;
+    text-align: center;
+    float: right;
+    width: 100%;
+}
+
+
+/* line right about the footer*/
+.foot {
+    padding: 2px;
+    background-color: #4aaaa5;
+}
+
+
+/*
+-------------------------------
+The header or top of document. 
+Header + .head-name + .head-menu
+-------------------------------
+*/
+.head-name {
+    background-color: #4aaaa5;
+    height: 100%;
+    padding: 0px 30px;
+    float: left;
+    position: relative;
+    top: auto;
+    left: 80px;
+    color: whitesmoke;
+    
+}
+
+.head-menu {
+    float: right;
+    /* width: 40%; */
+    width: auto;
+    height: 100%;
+}
+
+.head-menu a {
+    text-decoration: none;
+    margin: 30px 4px;
+    /* too much padding and it overflows the header */
+    padding: 19px;
+    float: right;
+    color: black;
+}
+
+.head-menu a:hover {
+    background-color: #4aaaa5;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px 20px 0px;
+}
+
+
+
+/*
+-------------------------------
+Project cards - portfolio.html
+-------------------------------
+*/
+.card {
+    float: left;
+    padding: 35px 5px;
+}
+
+.card img {
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+.card h3{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 150px;
+}
