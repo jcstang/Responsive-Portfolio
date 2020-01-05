@@ -245,4 +245,5 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   /* stuff stuff stuff */
   /* TODO: finish this */
+  /* TODO: make header static instead of fixed */
 }
