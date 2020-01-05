@@ -141,6 +141,9 @@ Project cards - portfolio.html
   margin-top: 150px;
 }
 
+/* Need 3 media queries
+max-width: 980px, 768px, 640px */
+
 /*------------------------------------------------------------*/
 /* Media Queries                                              */
 /*------------------------------------------------------------*/
