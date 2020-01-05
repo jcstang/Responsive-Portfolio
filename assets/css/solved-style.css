@@ -84,6 +84,8 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  margin-right: 35px;
+  /* FIXME: on 640px text hidden. add margin left? */
 }
 
 nav a {
@@ -115,7 +117,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -139,7 +142,6 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
-
 
 /* ============================================= */
 /* portfolio page */
@@ -196,15 +198,15 @@ h3, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -217,7 +219,7 @@ textarea {
 }
 
 /* FIXME: why type=submit? */
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
@@ -229,6 +231,7 @@ input[type=submit] {
 /* ============================================= */
 /* media queries */
 /* ============================================= */
+/* hint? use only on the container? */
 /* big screens - PC */
 @media screen and (max-width: 980px) {
   /* stuff here */
@@ -246,4 +249,24 @@ input[type=submit] {
   /* stuff stuff stuff */
   /* TODO: finish this */
   /* TODO: make header static instead of fixed */
+  .main-nav {
+    position: static;
+    overflow: auto;
+    /* position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc; */
+  }
+  nav {
+    /* TODO: remove brown. just for testing. */
+    background-color: brown;
+    width: 100%;
+    /* centers the nav links */
+    margin: auto;
+    text-align: center;
+  }
 }
