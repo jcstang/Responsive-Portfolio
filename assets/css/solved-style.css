@@ -246,25 +246,12 @@ input[type="submit"] {
 
 /* phones */
 @media screen and (max-width: 640px) {
-  /* stuff stuff stuff */
-  /* TODO: finish this */
-  /* TODO: make header static instead of fixed */
   .main-nav {
     position: static;
     overflow: auto;
     margin: 0 0 5px;
-    /* position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: #ffffff;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc; */
   }
   nav {
-    /* TODO: remove brown. just for testing. */
-    /* background-color: brown; */
     width: 100%;
     /* centers the nav links */
     margin: auto;
@@ -276,7 +263,6 @@ input[type="submit"] {
     width: 100%;
   }
   nav a {
-    /* TODO: get rid of the padding-margin */
     padding: 0 11px;
     margin: 0;
   }
@@ -287,8 +273,6 @@ input[type="submit"] {
     width: auto;
     margin-left: 22px;
     margin-right: 22px;
-    /* FIXME: left margin ok. right margin cut off */
-    /* DONE? */
   }
   .auth-image {
     width: 100%;
@@ -299,4 +283,5 @@ input[type="submit"] {
     margin-top: 10px;
     margin-right: 25px; */
   }
+
 }
