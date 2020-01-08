@@ -189,12 +189,15 @@ h2 {
 /* ============================================= */
 /* contact page */
 /* ============================================= */
+/* FIXME: why does the list have bullet points? */
 #contact-form ul {
   margin-bottom: 20px;
+  list-style-type: none;
 }
 
 #contact-form li {
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 label,
