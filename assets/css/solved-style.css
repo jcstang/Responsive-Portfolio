@@ -245,6 +245,11 @@ input[type="submit"] {
   background-color: whitesmoke;
 }
 
+.card {
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
 
 /* ============================================= */
 /* media queries */
