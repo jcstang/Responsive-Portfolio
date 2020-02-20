@@ -236,6 +236,15 @@ input[type="submit"] {
   border: 0 none;
 }
 
+/* cards */
+.card-header {
+  background-color: whitesmoke;
+}
+
+.card-body {
+  background-color: whitesmoke;
+}
+
 
 /* ============================================= */
 /* media queries */
